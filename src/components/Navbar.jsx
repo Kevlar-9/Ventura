@@ -6,7 +6,7 @@ import menu from '../assets/menu.svg'
 
 function Navbar() {
   return (
-    <nav className='text-[arial] w-full fixed top-0 z-50 bg-white shadow-sm border-b border-gray-100'>
+    <nav className='font-[arial] w-full fixed top-0 z-50 bg-white shadow-sm border-b border-gray-100'>
       <div className='hidden sm:flex max-w-7xl mx-auto p-4 px- w-full h-full items-center'>
         <div className='flex gap-4 text-sm items-center justify-evenly w-full'>
           <img className='w-24' src={logo} alt="Ventura logo" />
@@ -49,7 +49,7 @@ function Navbar() {
             }} />
           </div>
         </div>
-        <div className='hidden absolute top-15 left-0 flex flex-col items-center w-full h-full' id='menu'>
+        <div className='hidden absolute top-15 left-0  flex-col items-center w-full h-full' id='menu'>
           <Link to="/" className='w-full bg-blue-600 p-3 text-center hover:italic hover:text-white hover:bg-[#0000FF] transition duration-150'>Products</Link>
           <Link to="/" className='w-full bg-blue-600 p-3 text-center hover:italic hover:text-white hover:bg-[#0000FF] transition duration-150'>Apps</Link>
           <Link to="/" className='w-full bg-blue-600 p-3 text-center hover:italic hover:text-white hover:bg-[#0000FF] transition duration-150'>Blog</Link>
