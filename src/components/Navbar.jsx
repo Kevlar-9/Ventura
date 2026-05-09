@@ -1,20 +1,22 @@
-import { Link } from 'react-router-dom'
+import { NavLink, Link } from 'react-router-dom'
 import logo from '../assets/Logo.svg'
 import play from '../assets/play-circle.svg'
 import menu from '../assets/menu.svg'
 
-
 function Navbar() {
+  const activeStyles = ({ isActive }) =>
+    isActive ? 'text-[#0000FF] font-semibold italic' : 'text-gray-600 hover:text-[#0000FF] transition duration-150';
+
   return (
-    <nav className='font-[arial] w-full fixed top-0 z-50 bg-white shadow-sm border-b border-gray-100'>
+    <nav className='font-[arial] w-full fixed top-0 z-50 bg-white shadow-sm'>
       <div className='hidden sm:flex max-w-7xl mx-auto p-4 px- w-full h-full items-center'>
         <div className='flex gap-4 text-sm items-center justify-evenly w-full'>
           <img className='w-24' src={logo} alt="Ventura logo" />
           <div className='flex justify-evenly items-center w-full whitespace-nowrap'>
-            <Link to="/" className='hover:text-[#0000FF] transition duration-150'>Products</Link>
-            <Link to="/" className='hover:text-[#0000FF] transition duration-150'>Apps</Link>
-            <Link to="/" className='hover:text-[#0000FF] transition duration-150'>Blog</Link>
-            <Link to="/" className='hover:text-[#0000FF] transition duration-150'>Pricing</Link>
+            <NavLink to="/Product" className={activeStyles}>Products</NavLink>
+            <NavLink to="/Apps" className={activeStyles}>Apps</NavLink>
+            <NavLink to="/Blog" className={activeStyles}>Blog</NavLink>
+            <NavLink to="/Pricing" className={activeStyles}>Pricing</NavLink>
           </div>
         </div>
         <div className='flex items-center gap-2 text-sm w-full justify-center'>
@@ -33,7 +35,7 @@ function Navbar() {
       </div>
 
 
-      <div className='sm:hidden w-full flex p-4 px-10 justify-between border-b-2 border-[#0000FF]'>
+      <div className='sm:hidden w-full flex p-4 px-10 justify-between'>
         <div className='flex w-full items-center justify-between'>
           <div>
             <img className='w-25' src={logo} alt="Ventura logo" />
