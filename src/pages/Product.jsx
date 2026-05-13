@@ -11,7 +11,7 @@ function Product() {
         <main className='min-h-screen pt-32'>
             <div className='h-[500px] flex flex-col items-center justify-center text-center px-6 gap-8 w-full'>
                 <div className='flex flex-col gap-4 items-center'>
-                    <h1 className='text-4xl md:text-6xl font-bold text-slate-900 max-w-3xl leading-tight'>
+                    <h1 className='text-4xl md:text-6xl font-semibold text-slate-900 max-w-3xl leading-tight'>
                         Simple, accessible, <br className='hidden md:block' /> and made for all.
                     </h1>
                     <p className='text-slate-600 text-lg md:text-xl max-w-2xl leading-relaxed'>
@@ -21,7 +21,7 @@ function Product() {
 
                 <div className='flex flex-wrap items-center justify-center gap-4 w-full'>
                     <Link to="/">
-                        <button className='bg-[#0000FF] hover:bg-blue-700 text-white py-3.5 px-8 rounded-xl font-bold transition duration-150 whitespace-nowrap shadow-lg shadow-blue-100'>
+                        <button className='bg-[#0000FF] hover:bg-blue-700 text-white py-3.5 px-8 rounded-xl font-semibold transition duration-150 whitespace-nowrap shadow-lg shadow-blue-100'>
                             Download Now
                         </button>
                     </Link>
@@ -48,8 +48,8 @@ function Product() {
                     {/* Right Content */}
                     <div className='w-full lg:w-1/2 flex flex-col gap-8'>
                         <div className='flex flex-col gap-4'>
-                            <h3 className='text-[#0000FF] font-bold tracking-widest text-sm uppercase'>Choose Us</h3>
-                            <h1 className='text-4xl md:text-5xl font-bold text-slate-900 leading-tight'>
+                            <h3 className='text-[#0000FF] font-semibold tracking-widest text-sm uppercase'>Choose Us</h3>
+                            <h1 className='text-4xl md:text-5xl font-semibold text-slate-900 leading-tight'>
                                 Placeholder text goes right here
                             </h1>
                             <p className='text-lg text-slate-500 leading-relaxed'>
@@ -76,8 +76,8 @@ function Product() {
                     {/* Left Content */}
                     <div className='w-full lg:w-1/2 flex flex-col gap-8 order-2 lg:order-1'>
                         <div className='flex flex-col gap-4'>
-                            <h3 className='text-[#0000FF] font-bold tracking-widest text-sm uppercase'>Choose Us</h3>
-                            <h1 className='text-4xl md:text-5xl font-bold text-slate-900 leading-tight'>
+                            <h3 className='text-[#0000FF] font-semibold tracking-widest text-sm uppercase'>Choose Us</h3>
+                            <h1 className='text-4xl md:text-5xl font-semibold text-slate-900 leading-tight'>
                                 Placeholder text goes right here
                             </h1>
                             <p className='text-lg text-slate-500 leading-relaxed'>
@@ -110,8 +110,8 @@ function Product() {
                 <div className='flex flex-col lg:flex-row gap-16 lg:gap-24'>
                     {/* FAQ Header */}
                     <div className='w-full lg:w-1/3 flex flex-col gap-4'>
-                        <h3 className='text-[#0000FF] font-bold tracking-widest text-sm uppercase'>FAQ'S</h3>
-                        <h1 className='text-4xl md:text-5xl font-bold text-slate-900 leading-tight'>
+                        <h3 className='text-[#0000FF] font-semibold tracking-widest text-sm uppercase'>FAQ'S</h3>
+                        <h1 className='text-4xl md:text-5xl font-semibold text-slate-900 leading-tight'>
                             Frequently Asked Questions
                         </h1>
                     </div>
