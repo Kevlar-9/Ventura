@@ -52,10 +52,10 @@ function Navbar() {
           </div>
         </div>
         <div className='hidden absolute top-15 left-0  flex-col items-center w-full h-full' id='menu'>
-          <Link to="/" className='w-full bg-blue-600 p-3 text-center hover:italic hover:text-white hover:bg-[#0000FF] transition duration-150'>Products</Link>
-          <Link to="/" className='w-full bg-blue-600 p-3 text-center hover:italic hover:text-white hover:bg-[#0000FF] transition duration-150'>Apps</Link>
-          <Link to="/" className='w-full bg-blue-600 p-3 text-center hover:italic hover:text-white hover:bg-[#0000FF] transition duration-150'>Blog</Link>
-          <Link to="/" className='w-full bg-blue-600 p-3 text-center hover:italic hover:text-white hover:bg-[#0000FF] transition duration-150'>Pricing</Link>
+          <Link to="/Product" className='w-full bg-blue-600 p-3 text-center hover:italic hover:text-white hover:bg-[#0000FF] transition duration-150'>Products</Link>
+          <Link to="/Apps" className='w-full bg-blue-600 p-3 text-center hover:italic hover:text-white hover:bg-[#0000FF] transition duration-150'>Apps</Link>
+          <Link to="/Blog" className='w-full bg-blue-600 p-3 text-center hover:italic hover:text-white hover:bg-[#0000FF] transition duration-150'>Blog</Link>
+          <Link to="/Pricing" className='w-full bg-blue-600 p-3 text-center hover:italic hover:text-white hover:bg-[#0000FF] transition duration-150'>Pricing</Link>
         </div>
       </div>
     </nav>

@@ -9,7 +9,7 @@ import imageright from '../assets/imageright.svg'
 function Product() {
     return (
         <main className='min-h-screen pt-32'>
-            <div className='bg-red-50/50 h-[500px] flex flex-col items-center justify-center text-center px-6 gap-8 w-full'>
+            <div className='h-[500px] flex flex-col items-center justify-center text-center px-6 gap-8 w-full'>
                 <div className='flex flex-col gap-4 items-center'>
                     <h1 className='text-4xl md:text-6xl font-bold text-slate-900 max-w-3xl leading-tight'>
                         Simple, accessible, <br className='hidden md:block' /> and made for all.

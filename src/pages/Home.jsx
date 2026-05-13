@@ -153,7 +153,7 @@ function Home() {
               Explore smarter ways to handle your finances.
             </h1>
             <Link to="/">
-              <button className='flex gap-2 items-center bg-gray-50 hover:bg-transparent border border-gray-200 transition py-3 px-3 rounded-lg whitespace-nowrap'>
+              <button className='flex gap-2 items-center bg-gray-50 hover:bg-gray-50/80 border border-gray-200 transition py-3 px-3 rounded-lg whitespace-nowrap'>
                 <img src={play} alt="" className='w-4' />
                 Watch video
               </button>
